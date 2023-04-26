@@ -27,11 +27,11 @@ export const useMainSubMenuDevelopers = () => {
         />
       ),
       onClick: () => {
-        openInNewTab('https://github.com/lifinance/');
+        openInNewTab('https://unilink.network');
         trackPageload({
           source: 'menu',
-          destination: 'lifi-github',
-          url: 'https://github.com/lifinance/',
+          destination: 'unilink-github',
+          url: 'https://unilink.network,
           pageload: true,
           disableTrackingTool: [EventTrackingTools.arcx],
         });
@@ -41,11 +41,11 @@ export const useMainSubMenuDevelopers = () => {
       label: `${translate(`${i18Path}developers.documentation`)}`,
       prefixIcon: <DescriptionOutlinedIcon />,
       onClick: () => {
-        openInNewTab('https://docs.li.fi/');
+        openInNewTab('https://unilink.network/docs');
         trackPageload({
           source: 'menu',
-          destination: 'lifi-docs',
-          url: 'https://docs.li.fi/',
+          destination: 'unilink-docs',
+          url: 'https://unilink.network/docs',
           pageload: true,
           disableTrackingTool: [EventTrackingTools.arcx],
         });

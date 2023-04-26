@@ -36,7 +36,7 @@ export const useMainMenuItems = () => {
       ) : (
         <LightModeOutlinedIcon />
       ),
-      url: 'https://github.com/lifinance/',
+      url: 'https://unilink.network',
       triggerSubMenu: SubMenuKeys.themes,
     },
     {
@@ -68,11 +68,11 @@ export const useMainMenuItems = () => {
       prefixIcon: <TwitterIcon />,
       showMoreIcon: false,
       onClick: () => {
-        openInNewTab('https://twitter.com/JumperExchange');
+        openInNewTab('https://twitter.com/Unilink_network');
         trackPageload({
           source: 'menu',
-          destination: 'twitter-JumperExchange',
-          url: 'https://twitter.com/JumperExchange',
+          destination: 'twitter-UniLink',
+          url: 'https://twitter.com/Unilink_network',
           pageload: true,
           disableTrackingTool: [EventTrackingTools.arcx],
         });
@@ -91,11 +91,11 @@ export const useMainMenuItems = () => {
       ),
       showMoreIcon: false,
       onClick: () => {
-        openInNewTab('https://discord.gg/lifi');
+        openInNewTab('https://discord.gg/Unilink');
         trackPageload({
           source: 'menu',
-          destination: 'discord-lifi',
-          url: 'https://discord.gg/lifi',
+          destination: 'discord-Unilink',
+          url: 'https://discord.gg/Unilink',
           pageload: true,
           disableTrackingTool: [EventTrackingTools.arcx],
         });
@@ -117,12 +117,12 @@ export const useMainMenuItems = () => {
       onClick: () => {
         trackPageload({
           source: 'menu',
-          destination: 'lifi-website',
-          url: 'https://li.fi',
+          destination: 'Unilink-website',
+          url: 'https://Unilink.network,
           pageload: true,
           disableTrackingTool: [EventTrackingTools.arcx],
         });
-        openInNewTab('https://li.fi');
+        openInNewTab('https://Unilink.network');
       },
     },
     {
